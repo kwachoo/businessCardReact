@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #23252C;
+    font-family: Inter, sans-serif;
+}
+
+
+main{
+    background: #1A1B21;
+    width: 317px;
+    height: calc(317px + 399px);
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+
+.photo {
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+}
+
+.info--box{
+    text-align: center;
+}
+
+.info--box > h1 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.info--box > h3 {
+    font-size: 13px;
+    margin: 5px;
+    color: orangered;
+    font-weight: 200;   
+}
+
+.info--web{
+    color: white;
+    font-size: 10px;
+    letter-spacing: .05em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.info--button {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button, .button--linkedin {
+    margin: 0 6px;
+}
+
+.button {
+    background: white;
+    border: 1px solid gray;
+    padding: 10px 40px;
+    border-radius: 6px;
+    text-decoration:none;
+    color: #374151;
+    font-size: 14px;
+    line-height: 16px;
+    width: 115px;
+    height: 34px;
+}
+
+.button--linkedin {
+    background: #5093E2;
+    width: 115px;
+    height: 34px;
+    padding: 10px 40px;
+    border-radius: 6px;
+    text-decoration:none;
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+
+.about{
+    padding: 30px 35px;
+}
+.about > h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 27px;
+}
+.about > p {
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 15px
+}
+
+footer{
+    background: #161619;
+    display: flex;
+    align-items: center;
+    height: 64px;
+    justify-content: center;
+    
+}
+footer > .footer--icon {
+    width: 25px;
+    height: 25px;
+    margin: 0 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+footer > a {
+    text-decoration: none;
+    color: #161619;
+    fill: #161619;
+}
