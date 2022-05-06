@@ -1,7 +1,7 @@
 # Business Card with React
 My start with react.js
 
-!(https://github.com/kwachoo/businessCardReact/blob/main/businesscard.png)
+!(https://github.com/kwachoo/businessCardReact/blob/main/businesscard.png?raw=true)
 
 - [My portfolio](https://lk-design.pl)
 - [Linkedin](https://www.linkedin.com/in/lukaszkwasinski/)
